@@ -1,0 +1,20 @@
+# Python関連の無視するファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 環境変数ファイル
+.env
+
+# その他の無視するファイル
+.DS_Store
+.idea/
+.vscode/
+*.log

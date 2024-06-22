@@ -1,0 +1,7 @@
+Flask
+langchain_openai
+langchain_community
+PyPDF2
+langchain_qdrant
+qdrant-client
+python-dotenv
