@@ -1,5 +1,6 @@
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Added for CORS support
 from langchain_openai import ChatOpenAI
 from langchain_community.llms import OpenAI
 from langchain_community.callbacks import get_openai_callback
@@ -82,6 +83,7 @@ def load_qdrant():
     )
 
 api = Flask(__name__)
+CORS(api)  # Added for CORS support
 
 # 既存の関数...
 

@@ -5,3 +5,4 @@ PyPDF2
 langchain_qdrant
 qdrant-client
 python-dotenv
+flask-cors
